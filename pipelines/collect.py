@@ -1,4 +1,4 @@
-"""AdversaryIndex - Main Collection Pipeline"""
+"""AdversaryIndex -- Main Collection Pipeline"""
 import asyncio
 import json
 import csv
@@ -82,6 +82,29 @@ async def collect():
                 for k, v in r.items():
                     row[k] = json.dumps(v) if isinstance(v, (list, dict)) else v
                 writer.writerow(row)
+
+    # Parquet export
+    try:
+        import pyarrow as pa
+        import pyarrow.parquet as pq
+
+        # Flatten records for columnar storage
+        flat_records = []
+        for r in all_records:
+            flat = {}
+            for k, v in r.items():
+                flat[k] = json.dumps(v) if isinstance(v, (list, dict)) else v
+            flat_records.append(flat)
+
+        if flat_records:
+            # Build table from list of dicts
+            table = pa.Table.from_pylist(flat_records)
+            pq.write_table(table, "exports/latest.parquet", compression="snappy")
+            print(f"[parquet] wrote {len(flat_records)} rows")
+    except ImportError:
+        print("[parquet] SKIPPED: pyarrow not installed")
+    except Exception as e:
+        print(f"[parquet] FAILED: {e}")
 
     # Summary stats
     attack_types = {}
