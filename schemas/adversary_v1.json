@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AdversaryIndex Record v1",
+  "type": "object",
+  "required": ["timestamp", "source", "model", "attack_type"],
+  "properties": {
+    "timestamp": {"type": "string", "format": "date-time"},
+    "source": {"type": "string", "enum": ["nvd", "mitre_atlas", "aiid", "owasp_llm"]},
+    "model": {"type": "string"},
+    "attack_type": {
+      "type": "string",
+      "enum": [
+        "prompt_injection", "data_poisoning", "adversarial_evasion",
+        "model_extraction", "data_exfiltration", "denial_of_service",
+        "supply_chain", "remote_code_execution", "command_injection",
+        "sql_injection", "bias_discrimination", "deepfake_misinfo",
+        "autonomous_system_failure", "surveillance_overreach",
+        "reconnaissance", "other"
+      ]
+    },
+    "success_rate": {"type": "number", "minimum": 0, "maximum": 1},
+    "new_technique": {"type": "boolean"},
+    "defense_efficacy": {"type": "number", "minimum": 0, "maximum": 1},
+    "defense_mechanism": {"type": "string"},
+    "eu_ai_act_risk": {
+      "type": "string",
+      "enum": ["unacceptable", "high", "limited", "minimal"]
+    },
+    "threat_score": {"type": "number", "minimum": 0, "maximum": 100},
+    "cvss_score": {"type": "number", "minimum": 0, "maximum": 10},
+    "severity": {"type": "string"},
+    "cve_id": {"type": "string"},
+    "atlas_id": {"type": "string"},
+    "incident_id": {"type": "integer"},
+    "owasp_id": {"type": "string"},
+    "name": {"type": "string"},
+    "description": {"type": "string", "maxLength": 500},
+    "record_type": {"type": "string", "enum": ["cve", "case_study", "technique", "incident", "taxonomy"]}
+  }
+}
