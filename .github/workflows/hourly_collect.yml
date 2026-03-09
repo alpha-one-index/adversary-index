@@ -1,0 +1,34 @@
+name: AdversaryIndex Hourly Collection
+on:
+  schedule:
+    - cron: '15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run collection pipeline
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+        run: python -m pipelines.collect
+
+      - name: Commit & push exports
+        run: |
+          git config user.name "AdversaryIndex Bot"
+          git config user.email "bot@adversaryindex.com"
+          git add exports/
+          git diff --cached --quiet || git commit -m "data: hourly update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
