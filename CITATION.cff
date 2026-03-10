@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: AdversaryIndex
+message: >-
+  If you use this dataset or reference in your research,
+  please cite it using the metadata from this file.
+type: dataset
+authors:
+  - name: Alpha One Index
+    website: https://github.com/alpha-one-index
+repository-code: https://github.com/alpha-one-index/adversary-index
+url: https://github.com/alpha-one-index/adversary-index
+abstract: >-
+  Live AI adversarial threat index. Attack success rates,
+  defense efficacy, and compliance risk scores across
+  foundation models, updated hourly. Sources include
+  NVD/CVE, MITRE ATLAS, AI Incident Database, and
+  OWASP LLM Top 10.
+keywords:
+  - ai-security
+  - adversarial-attacks
+  - prompt-injection
+  - llm-security
+  - ai-threats
+  - red-teaming
+  - vulnerability-database
+  - mitre-atlas
+  - owasp-llm
+  - eu-ai-act
+license: MIT
+version: 1.0.0
+date-released: '2026-03-10'
