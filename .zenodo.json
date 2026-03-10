@@ -1,0 +1,49 @@
+{
+  "title": "AdversaryIndex: Live AI Adversarial Threat Index",
+  "description": "Live AI adversarial threat index. Attack success rates, new techniques, defense efficacy, and compliance risk scores across foundation models, updated hourly.",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Alpha One Index",
+      "affiliation": "Independent AI Infrastructure Research"
+    }
+  ],
+  "keywords": [
+    "ai-security",
+    "adversarial-attacks",
+    "prompt-injection",
+    "llm-security",
+    "ai-threats",
+    "red-teaming",
+    "vulnerability-database",
+    "mitre-atlas",
+    "owasp-llm",
+    "eu-ai-act"
+  ],
+  "license": {
+    "id": "MIT"
+  },
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/alpha-one-index/adversary-index",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/alpha-one-index/ai-infra-index",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/alpha-one-index/ai-red-teaming-index",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/alpha-one-index/governance-index",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ]
+}
