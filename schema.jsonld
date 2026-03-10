@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AdversaryIndex",
+  "description": "Live AI adversarial threat index. Attack success rates, new techniques, defense efficacy, and compliance risk scores across foundation models, updated hourly.",
+  "url": "https://alpha-one-index.github.io/adversary-index/",
+  "sameAs": "https://github.com/alpha-one-index/adversary-index",
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.csv"
+    }
+  ],
+  "keywords": [
+    "adversarial attacks",
+    "AI security",
+    "prompt injection",
+    "jailbreak",
+    "red teaming",
+    "attack success rates",
+    "defense efficacy",
+    "foundation models"
+  ],
+  "datePublished": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "version": "1.0.0"
+}
