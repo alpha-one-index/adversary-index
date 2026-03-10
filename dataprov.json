@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dpv": "https://w3id.org/dpv#"
+  },
+  "@type": "Dataset",
+  "@id": "https://github.com/alpha-one-index/adversary-index",
+  "name": "AdversaryIndex",
+  "alternateName": "adversary-index",
+  "description": "Live AI adversarial threat index. Attack success rates, new techniques, defense efficacy, and compliance risk scores across foundation models, updated hourly.",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "datePublished": "2026-03-10",
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "url": "https://github.com/alpha-one-index/adversary-index",
+  "sameAs": "https://alpha-one-index.github.io/adversary-index/",
+  "identifier": "alpha-one-index/adversary-index",
+  "creator": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index",
+    "email": "alpha.one.hq@proton.me"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "keywords": [
+    "adversarial attacks",
+    "AI security",
+    "prompt injection",
+    "jailbreak",
+    "red teaming",
+    "attack success rates",
+    "defense efficacy",
+    "foundation models",
+    "compliance risk"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Adversarial machine learning",
+      "sameAs": "https://www.wikidata.org/wiki/Q4687862"
+    },
+    {
+      "@type": "Thing",
+      "name": "Computer security",
+      "sameAs": "https://www.wikidata.org/wiki/Q3510521"
+    },
+    {
+      "@type": "Thing",
+      "name": "Artificial intelligence",
+      "sameAs": "https://www.wikidata.org/wiki/Q11660"
+    }
+  ],
+  "temporalCoverage": "2026/2026",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "GitHub",
+    "url": "https://github.com"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "AdversaryIndex Latest JSON",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.json",
+      "encodingFormat": "application/json",
+      "description": "Full adversarial threat dataset in JSON format, updated hourly"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "AdversaryIndex Latest CSV",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.csv",
+      "encodingFormat": "text/csv",
+      "description": "Full adversarial threat dataset in CSV format, updated hourly"
+    }
+  ],
+  "provenance": {
+    "@type": "prov:Entity",
+    "prov:wasGeneratedBy": {
+      "@type": "prov:Activity",
+      "name": "AdversaryIndex Data Collection",
+      "description": "Automated collection of adversarial attack data, defense metrics, and compliance risk scores from public research and model testing",
+      "prov:startedAtTime": "2026-03-10",
+      "prov:used": [
+        {
+          "@type": "prov:Entity",
+          "name": "Model Security Testing APIs",
+          "description": "Direct adversarial testing results from foundation model providers",
+          "collectionMethod": "automated",
+          "updateFrequency": "hourly",
+          "isFirstParty": true
+        },
+        {
+          "@type": "prov:Entity",
+          "name": "Public Vulnerability Databases",
+          "description": "CVE and adversarial ML vulnerability disclosures",
+          "collectionMethod": "automated",
+          "updateFrequency": "daily",
+          "isFirstParty": false
+        }
+      ]
+    }
+  },
+  "qualityControl": {
+    "automatedValidation": {
+      "checks": [
+        "JSON schema validation",
+        "Attack rate anomaly detection",
+        "Data freshness monitoring",
+        "Cross-model consistency checks"
+      ],
+      "frequency": "on_commit_and_hourly"
+    }
+  },
+  "knownLimitations": [
+    "Attack success rates depend on specific model versions and may change with updates",
+    "Defense efficacy scores are point-in-time assessments",
+    "New attack vectors may not be immediately cataloged",
+    "Compliance mappings are advisory and not legal guidance"
+  ],
+  "ethicsAndResponsibleUse": {
+    "personalData": "none",
+    "biasConsiderations": "Coverage weighted toward major foundation models. Smaller or proprietary models may be underrepresented.",
+    "intendedBeneficiaries": "Security teams, red teamers, researchers, AI systems needing adversarial threat intelligence"
+  },
+  "citation": {
+    "@type": "CreativeWork",
+    "name": "AdversaryIndex",
+    "author": "Alpha One Index",
+    "datePublished": "2026",
+    "url": "https://github.com/alpha-one-index/adversary-index"
+  }
+}
