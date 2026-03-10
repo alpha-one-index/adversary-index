@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "sc": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@type": "sc:Dataset",
+  "name": "AdversaryIndex",
+  "description": "Live AI adversarial threat index. Attack success rates, defense efficacy, and compliance risk scores across foundation models, updated hourly. Sources include NVD/CVE, MITRE ATLAS, AI Incident Database, and OWASP LLM Top 10.",
+  "url": "https://github.com/alpha-one-index/adversary-index",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://opensource.org/licenses/MIT",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "datePublished": "2026-03-10",
+  "creator": {
+    "@type": "sc:Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "keywords": [
+    "AI security",
+    "adversarial attacks",
+    "prompt injection",
+    "LLM security",
+    "MITRE ATLAS",
+    "OWASP LLM Top 10",
+    "vulnerability database",
+    "red teaming",
+    "EU AI Act"
+  ],
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "citation": "Alpha One Index. (2026). AdversaryIndex. https://github.com/alpha-one-index/adversary-index",
+  "rai:dataCollection": "Threat data sourced from NVD/CVE (NIST), MITRE ATLAS, AI Incident Database (Partnership on AI), and OWASP LLM Top 10. All public sources.",
+  "rai:dataCollectionType": "Automated API Collection",
+  "rai:personalSensitiveInformation": "none",
+  "rai:dataBiases": "Coverage weighted toward publicly disclosed vulnerabilities. Unreported threats not captured. Attack success rates are estimates based on published research.",
+  "rai:dataLimitations": [
+    "Only publicly disclosed vulnerabilities and incidents are tracked",
+    "Attack success rates based on published research may not reflect real-world conditions",
+    "Defense efficacy scores are aggregated estimates",
+    "EU AI Act risk classifications are interpretive"
+  ],
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "latest-csv",
+      "name": "AdversaryIndex Latest CSV",
+      "description": "Full threat dataset in CSV format, updated hourly",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "dynamic"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "latest-json",
+      "name": "AdversaryIndex Latest JSON",
+      "description": "Full threat dataset in JSON format, updated hourly",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.json",
+      "encodingFormat": "application/json",
+      "sha256": "dynamic"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "readme-md",
+      "name": "Documentation",
+      "description": "Primary dataset documentation with schema, methodology, and usage instructions",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/README.md",
+      "encodingFormat": "text/markdown"
+    }
+  ]
+}
