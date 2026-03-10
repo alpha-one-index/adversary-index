@@ -1,0 +1,40 @@
+# AdversaryIndex
+# https://alpha-one-index.github.io/adversary-index/
+# Maintained by Alpha One Index
+
+> Open-source, machine-readable index of AI/ML adversarial threats. Attack success rates, defense efficacy, and compliance risk scores across foundation models, updated hourly via automated pipelines.
+
+## Overview
+
+AdversaryIndex is a vendor-neutral threat intelligence knowledge base covering:
+- AI-related CVE vulnerabilities from NVD
+- MITRE ATLAS attack techniques and case studies
+- AI Incident Database real-world failures
+- OWASP LLM Top 10 risk taxonomy
+- Attack success rates and defense efficacy metrics
+- EU AI Act compliance risk scoring
+- Hourly automated threat enrichment
+
+## Key Facts
+
+- 4 primary threat sources (NVD/CVE, MITRE ATLAS, AI Incident Database, OWASP LLM Top 10)
+- 8 attack types tracked (prompt injection, data poisoning, adversarial evasion, model extraction, data exfiltration, DoS, supply chain, bias/discrimination)
+- Hourly automated collection via GitHub Actions
+- Machine-readable JSON/CSV/Parquet exports
+- MIT License
+
+## Pages
+
+- [Homepage](https://alpha-one-index.github.io/adversary-index/): Overview, threat dashboard, attack type comparison
+- [Methodology](https://github.com/alpha-one-index/adversary-index/blob/main/docs/methodology.md): Data sources, collection methods, enrichment pipeline
+
+## Citation
+
+@misc{adversaryindex2026,
+  title = {AdversaryIndex},
+  author = {Alpha One Index},
+  year = {2026},
+  url = {https://github.com/alpha-one-index/adversary-index}
+}
+
+Last updated: 2026-03-10
