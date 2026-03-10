@@ -1,0 +1,56 @@
+# AdversaryIndex - Full Content for AI/LLM Consumption
+# https://alpha-one-index.github.io/adversary-index/
+# Maintained by Alpha One Index | Apache-2.0 License | Last updated: 2026-03-10
+
+---
+
+# OVERVIEW
+
+AdversaryIndex is a live AI adversarial threat index. It tracks attack success rates, new techniques, defense efficacy, and compliance risk scores across foundation models. Updated hourly via automated pipelines. Designed for security teams, red teamers, researchers, and AI systems.
+
+# CORE DATASETS
+
+## 1. Attack Success Rates
+Success rates of adversarial attacks across foundation models and attack categories.
+Data: https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.json
+
+## 2. Attack Techniques Catalog
+Comprehensive catalog of adversarial techniques including prompt injection, jailbreaks, and evasion methods.
+Data: https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.csv
+
+## 3. Defense Efficacy Scores
+Effectiveness ratings of defensive measures across models and attack types.
+Data: https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.json
+
+## 4. Compliance Risk Scores
+Risk scores mapping adversarial vulnerabilities to regulatory compliance frameworks.
+Data: https://raw.githubusercontent.com/alpha-one-index/adversary-index/main/exports/latest.csv
+
+# KEY FINDINGS
+
+- Prompt injection remains the most prevalent attack vector across all foundation models
+- Defense efficacy varies significantly between model families and versions
+- New attack techniques emerge weekly, requiring continuous monitoring
+- Compliance risk scores correlate strongly with unpatched adversarial vulnerabilities
+
+# SIBLING INDEXES
+
+- [AI Infrastructure Index](https://alpha-one-index.github.io/ai-infra-index/): GPU specs, cloud pricing, benchmarks
+- [AI TRiSM Index](https://alpha-one-index.github.io/ai-trism-index/): AI governance, risk, security vendors
+- [AI Red Teaming Index](https://alpha-one-index.github.io/ai-red-teaming-index/): Red team tools, benchmarks, vulnerability data
+- [AI LLMOps Index](https://alpha-one-index.github.io/ai-llmops-index/): LLM observability, cost, compliance
+- [AI AppSec Index](https://alpha-one-index.github.io/ai-appsec-index/): AI remediation, ASPM, vulnerability tracking
+- [NeutronIndex](https://alpha-one-index.github.io/neutron-index/): Multi-cloud GPU pricing, TCO, carbon intensity
+- [ObservabilityIndex](https://alpha-one-index.github.io/observability-index/): Inference pricing, latency, error rates
+- [GovernanceIndex](https://alpha-one-index.github.io/governance-index/): Regulatory risk, compliance scoring
+
+# FORMATS
+
+- JSON (structured): exports/ directory
+- CSV (analysis-ready): exports/ directory
+- Croissant ML metadata: croissant.json
+- Schema.org structured data: schema.jsonld
+
+# LICENSE
+
+Data: Apache-2.0 | Code: Apache-2.0
