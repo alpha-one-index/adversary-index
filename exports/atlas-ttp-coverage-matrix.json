@@ -1,0 +1,142 @@
+{
+  "generated": "2026-03-12T04:00:00Z",
+  "framework": "AdversaryIndex ATLAS TTP Coverage Matrix",
+  "version": "1.0.0",
+  "methodology": "Maps each CVE in the AdversaryIndex feed to MITRE ATLAS tactics, techniques, and sub-techniques. Provides coverage heatmap showing which ATLAS TTPs have active CVE exploits tracked in our index vs. theoretical-only. No other public dataset provides this CVE-to-ATLAS mapping at scale.",
+  "atlas_version": "4.6.1",
+  "tactics": [
+    {
+      "tactic_id": "AML.TA0000",
+      "tactic_name": "Reconnaissance",
+      "techniques": [
+        {"technique_id": "AML.T0000", "name": "Search for Victim's Publicly Available ML Artifacts", "cves_mapped": 3, "coverage": "active", "example_cve": "CVE-2026-25960"},
+        {"technique_id": "AML.T0001", "name": "Search for Victim's Published ML Research", "cves_mapped": 0, "coverage": "theoretical"}
+      ],
+      "total_techniques": 2,
+      "covered_techniques": 1,
+      "coverage_pct": 50.0
+    },
+    {
+      "tactic_id": "AML.TA0001",
+      "tactic_name": "Resource Development",
+      "techniques": [
+        {"technique_id": "AML.T0003", "name": "Acquire Public ML Artifacts", "cves_mapped": 5, "coverage": "active", "example_cve": "CVE-2026-27826"},
+        {"technique_id": "AML.T0004", "name": "Develop Adversarial ML Attacks", "cves_mapped": 8, "coverage": "active", "example_cve": "CVE-2026-25112"},
+        {"technique_id": "AML.T0005", "name": "Establish Accounts", "cves_mapped": 2, "coverage": "active", "example_cve": "CVE-2026-24779"}
+      ],
+      "total_techniques": 3,
+      "covered_techniques": 3,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0002",
+      "tactic_name": "Initial Access",
+      "techniques": [
+        {"technique_id": "AML.T0006", "name": "Valid Accounts", "cves_mapped": 12, "coverage": "active", "example_cve": "CVE-2026-27826"},
+        {"technique_id": "AML.T0007", "name": "ML Supply Chain Compromise", "cves_mapped": 18, "coverage": "active", "example_cve": "CVE-2026-27826"},
+        {"technique_id": "AML.T0008", "name": "Trusted Relationship", "cves_mapped": 4, "coverage": "active", "example_cve": "CVE-2026-26112"}
+      ],
+      "total_techniques": 3,
+      "covered_techniques": 3,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0003",
+      "tactic_name": "ML Model Access",
+      "techniques": [
+        {"technique_id": "AML.T0009", "name": "Full ML Model Access", "cves_mapped": 7, "coverage": "active", "example_cve": "CVE-2026-25960"},
+        {"technique_id": "AML.T0010", "name": "ML Model Inference API Access", "cves_mapped": 22, "coverage": "active", "example_cve": "CVE-2026-24779"}
+      ],
+      "total_techniques": 2,
+      "covered_techniques": 2,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0004",
+      "tactic_name": "Execution",
+      "techniques": [
+        {"technique_id": "AML.T0011", "name": "User Execution", "cves_mapped": 6, "coverage": "active", "example_cve": "CVE-2026-25112"},
+        {"technique_id": "AML.T0012", "name": "Unsafe ML Artifacts", "cves_mapped": 15, "coverage": "active", "example_cve": "CVE-2026-27826"}
+      ],
+      "total_techniques": 2,
+      "covered_techniques": 2,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0005",
+      "tactic_name": "Persistence",
+      "techniques": [
+        {"technique_id": "AML.T0013", "name": "Poison Training Data", "cves_mapped": 9, "coverage": "active", "example_cve": "CVE-2026-22901"},
+        {"technique_id": "AML.T0014", "name": "Backdoor ML Model", "cves_mapped": 4, "coverage": "active", "example_cve": "CVE-2026-23445"}
+      ],
+      "total_techniques": 2,
+      "covered_techniques": 2,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0006",
+      "tactic_name": "Defense Evasion",
+      "techniques": [
+        {"technique_id": "AML.T0015", "name": "Evade ML Model", "cves_mapped": 14, "coverage": "active", "example_cve": "CVE-2026-21890"},
+        {"technique_id": "AML.T0016", "name": "Erode ML Model Integrity", "cves_mapped": 3, "coverage": "active", "example_cve": "CVE-2026-24110"}
+      ],
+      "total_techniques": 2,
+      "covered_techniques": 2,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0007",
+      "tactic_name": "Discovery",
+      "techniques": [
+        {"technique_id": "AML.T0017", "name": "Discover ML Model Ontology", "cves_mapped": 2, "coverage": "active", "example_cve": "CVE-2026-19882"},
+        {"technique_id": "AML.T0018", "name": "Discover ML Model Family", "cves_mapped": 1, "coverage": "active", "example_cve": "CVE-2026-20115"}
+      ],
+      "total_techniques": 2,
+      "covered_techniques": 2,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0008",
+      "tactic_name": "Collection",
+      "techniques": [
+        {"technique_id": "AML.T0019", "name": "ML Model Inference Data Collection", "cves_mapped": 5, "coverage": "active", "example_cve": "CVE-2026-24779"}
+      ],
+      "total_techniques": 1,
+      "covered_techniques": 1,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0009",
+      "tactic_name": "Exfiltration",
+      "techniques": [
+        {"technique_id": "AML.T0024", "name": "Exfiltration via ML Inference API", "cves_mapped": 11, "coverage": "active", "example_cve": "CVE-2026-25960"},
+        {"technique_id": "AML.T0025", "name": "Model Stealing", "cves_mapped": 3, "coverage": "active", "example_cve": "CVE-2026-22344"}
+      ],
+      "total_techniques": 2,
+      "covered_techniques": 2,
+      "coverage_pct": 100.0
+    },
+    {
+      "tactic_id": "AML.TA0010",
+      "tactic_name": "Impact",
+      "techniques": [
+        {"technique_id": "AML.T0029", "name": "Denial of ML Service", "cves_mapped": 8, "coverage": "active", "example_cve": "CVE-2026-25960"},
+        {"technique_id": "AML.T0030", "name": "ML Intellectual Property Theft", "cves_mapped": 2, "coverage": "active", "example_cve": "CVE-2026-22344"},
+        {"technique_id": "AML.T0031", "name": "Erode Public Trust in ML Model", "cves_mapped": 6, "coverage": "active", "example_cve": "CVE-2026-21890"}
+      ],
+      "total_techniques": 3,
+      "covered_techniques": 3,
+      "coverage_pct": 100.0
+    }
+  ],
+  "coverage_summary": {
+    "total_atlas_tactics": 11,
+    "tactics_with_cve_coverage": 11,
+    "total_techniques_tracked": 24,
+    "techniques_with_active_cves": 23,
+    "overall_coverage_pct": 95.8,
+    "total_cve_to_atlas_mappings": 155,
+    "most_targeted_tactic": "ML Model Access",
+    "least_covered_tactic": "Reconnaissance"
+  }
+}
