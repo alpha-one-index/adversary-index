@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "dataset": "AI Defense Effectiveness Scores",
+    "generated": "2026-03-13T16:19:57.195559+00:00"
+  },
+  "defenses": [
+    {
+      "defense": "adversarial_training",
+      "effectiveness_pct": 72,
+      "cost_impact": "high",
+      "coverage": [
+        "evasion",
+        "poisoning"
+      ]
+    },
+    {
+      "defense": "input_sanitization",
+      "effectiveness_pct": 58,
+      "cost_impact": "low",
+      "coverage": [
+        "prompt_injection",
+        "jailbreak"
+      ]
+    },
+    {
+      "defense": "model_watermarking",
+      "effectiveness_pct": 85,
+      "cost_impact": "medium",
+      "coverage": [
+        "model_theft",
+        "ip_protection"
+      ]
+    },
+    {
+      "defense": "differential_privacy",
+      "effectiveness_pct": 91,
+      "cost_impact": "high",
+      "coverage": [
+        "data_extraction",
+        "membership_inference"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "dataset": "AI Threat Actor Profiles",
+    "generated": "2026-03-13T16:19:57.195559+00:00"
+  },
+  "profiles": [
+    {
+      "id": "TA-AI-001",
+      "name": "ModelPoisoner",
+      "sophistication": "high",
+      "primary_ttps": [
+        "AML.T0020",
+        "AML.T0018"
+      ],
+      "target_sectors": [
+        "finance",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "TA-AI-002",
+      "name": "PromptLeaker",
+      "sophistication": "medium",
+      "primary_ttps": [
+        "AML.T0051",
+        "AML.T0043"
+      ],
+      "target_sectors": [
+        "saas",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "TA-AI-003",
+      "name": "DataExfiltrator",
+      "sophistication": "high",
+      "primary_ttps": [
+        "AML.T0024",
+        "AML.T0025"
+      ],
+      "target_sectors": [
+        "government",
+        "defense"
+      ]
+    }
+  ]
+}
