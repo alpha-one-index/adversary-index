@@ -1,31 +1,9 @@
 {
-  "generated": "20260315T175958Z",
-  "count": 166,
+  "generated": "20260315T194315Z",
+  "count": 165,
   "records": [
     {
-      "timestamp": "2026-03-15T17:59:54.805481+00:00",
-      "source": "nvd",
-      "cve_id": "CVE-2026-32247",
-      "description": "Graphiti is a framework for building and querying temporal context graphs for AI agents. Graphiti versions before 0.28.2 contained a Cypher injection vulnerability in shared search-filter construction for non-Kuzu backends. Attacker-controlled label values supplied through SearchFilters.node_labels were concatenated directly into Cypher label expressions without validation. In MCP deployments, this was exploitable not only through direct untrusted access to the Graphiti MCP server, but also thro",
-      "model": "generic",
-      "attack_type": "prompt_injection",
-      "cvss_score": 8.1,
-      "severity": "HIGH",
-      "cwe_ids": [
-        "CWE-943"
-      ],
-      "published": "2026-03-12T19:16:19.733",
-      "keyword_match": "LLM",
-      "eu_ai_act_risk": "high",
-      "success_rate": 0.78,
-      "defense_efficacy": 0.65,
-      "defense_mechanism": "Input sanitization + output filtering",
-      "defense_mature": false,
-      "new_technique": true,
-      "threat_score": 69.7
-    },
-    {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0000",
       "name": "Search Open Technical Databases",
@@ -44,7 +22,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0000.000",
       "name": "Journals and Conference Proceedings",
@@ -63,7 +41,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0000.001",
       "name": "Pre-Print Repositories",
@@ -82,7 +60,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0000.002",
       "name": "Technical Blogs",
@@ -101,7 +79,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0001",
       "name": "Search Open AI Vulnerability Analysis",
@@ -120,7 +98,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0003",
       "name": "Search Victim-Owned Websites",
@@ -139,7 +117,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0004",
       "name": "Search Application Repositories",
@@ -158,7 +136,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0006",
       "name": "Active Scanning",
@@ -177,7 +155,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0002",
       "name": "Acquire Public AI Artifacts",
@@ -196,7 +174,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0002.000",
       "name": "Datasets",
@@ -215,7 +193,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0002.001",
       "name": "Models",
@@ -234,7 +212,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0016",
       "name": "Obtain Capabilities",
@@ -253,7 +231,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0016.000",
       "name": "Adversarial AI Attack Implementations",
@@ -272,7 +250,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0016.001",
       "name": "Software Tools",
@@ -291,7 +269,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0017",
       "name": "Develop Capabilities",
@@ -310,7 +288,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0017.000",
       "name": "Adversarial AI Attacks",
@@ -329,7 +307,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0008",
       "name": "Acquire Infrastructure",
@@ -348,7 +326,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0008.000",
       "name": "AI Development Workspaces",
@@ -367,7 +345,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0008.001",
       "name": "Consumer Hardware",
@@ -386,7 +364,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0019",
       "name": "Publish Poisoned Datasets",
@@ -405,7 +383,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0010",
       "name": "AI Supply Chain Compromise",
@@ -424,7 +402,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0010.000",
       "name": "Hardware",
@@ -443,7 +421,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0010.001",
       "name": "AI Software",
@@ -462,7 +440,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0010.002",
       "name": "Data",
@@ -481,7 +459,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0010.003",
       "name": "Model",
@@ -500,7 +478,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0040",
       "name": "AI Model Inference API Access",
@@ -519,7 +497,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0047",
       "name": "AI-Enabled Product or Service",
@@ -538,7 +516,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0041",
       "name": "Physical Environment Access",
@@ -557,7 +535,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0044",
       "name": "Full AI Model Access",
@@ -576,7 +554,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0013",
       "name": "Discover AI Model Ontology",
@@ -595,7 +573,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0014",
       "name": "Discover AI Model Family",
@@ -614,7 +592,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0020",
       "name": "Poison Training Data",
@@ -633,7 +611,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0021",
       "name": "Establish Accounts",
@@ -652,7 +630,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0005",
       "name": "Create Proxy AI Model",
@@ -671,7 +649,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0005.000",
       "name": "Train Proxy via Gathered AI Artifacts",
@@ -690,7 +668,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0005.001",
       "name": "Train Proxy via Replication",
@@ -709,7 +687,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0005.002",
       "name": "Use Pre-Trained Model",
@@ -728,7 +706,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0007",
       "name": "Discover AI Artifacts",
@@ -747,7 +725,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0011",
       "name": "User Execution",
@@ -766,7 +744,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0011.000",
       "name": "Unsafe AI Artifacts",
@@ -785,7 +763,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0012",
       "name": "Valid Accounts",
@@ -804,7 +782,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0015",
       "name": "Evade AI Model",
@@ -823,7 +801,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0018",
       "name": "Manipulate AI Model",
@@ -842,7 +820,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0018.000",
       "name": "Poison AI Model",
@@ -861,7 +839,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0018.001",
       "name": "Modify AI Model Architecture",
@@ -880,7 +858,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0024",
       "name": "Exfiltration via AI Inference API",
@@ -899,7 +877,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0024.000",
       "name": "Infer Training Data Membership",
@@ -918,7 +896,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0024.001",
       "name": "Invert AI Model",
@@ -937,7 +915,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0024.002",
       "name": "Extract AI Model",
@@ -956,7 +934,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0025",
       "name": "Exfiltration via Cyber Means",
@@ -975,7 +953,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0029",
       "name": "Denial of AI Service",
@@ -994,7 +972,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0046",
       "name": "Spamming AI System with Chaff Data",
@@ -1013,7 +991,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0031",
       "name": "Erode AI Model Integrity",
@@ -1032,7 +1010,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0034",
       "name": "Cost Harvesting",
@@ -1051,7 +1029,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0035",
       "name": "AI Artifact Collection",
@@ -1070,7 +1048,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0036",
       "name": "Data from Information Repositories",
@@ -1089,7 +1067,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0037",
       "name": "Data from Local System",
@@ -1108,7 +1086,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0042",
       "name": "Verify Attack",
@@ -1127,7 +1105,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0043",
       "name": "Craft Adversarial Data",
@@ -1146,7 +1124,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0043.000",
       "name": "White-Box Optimization",
@@ -1165,7 +1143,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0043.001",
       "name": "Black-Box Optimization",
@@ -1184,7 +1162,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0043.002",
       "name": "Black-Box Transfer",
@@ -1203,7 +1181,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0043.003",
       "name": "Manual Modification",
@@ -1222,7 +1200,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0043.004",
       "name": "Insert Backdoor Trigger",
@@ -1241,7 +1219,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0048",
       "name": "External Harms",
@@ -1260,7 +1238,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0048.000",
       "name": "Financial Harm",
@@ -1279,7 +1257,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0048.001",
       "name": "Reputational Harm",
@@ -1298,7 +1276,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0048.002",
       "name": "Societal Harm",
@@ -1317,7 +1295,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0048.003",
       "name": "User Harm",
@@ -1336,7 +1314,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0048.004",
       "name": "AI Intellectual Property Theft",
@@ -1355,7 +1333,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0049",
       "name": "Exploit Public-Facing Application",
@@ -1374,7 +1352,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0050",
       "name": "Command and Scripting Interpreter",
@@ -1393,7 +1371,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0051",
       "name": "LLM Prompt Injection",
@@ -1412,7 +1390,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0051.000",
       "name": "Direct",
@@ -1431,7 +1409,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0051.001",
       "name": "Indirect",
@@ -1450,7 +1428,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0052",
       "name": "Phishing",
@@ -1469,7 +1447,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0052.000",
       "name": "Spearphishing via Social Engineering LLM",
@@ -1488,7 +1466,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0053",
       "name": "AI Agent Tool Invocation",
@@ -1507,7 +1485,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0054",
       "name": "LLM Jailbreak",
@@ -1526,7 +1504,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0055",
       "name": "Unsecured Credentials",
@@ -1545,7 +1523,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0056",
       "name": "Extract LLM System Prompt",
@@ -1564,7 +1542,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0057",
       "name": "LLM Data Leakage",
@@ -1583,7 +1561,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0058",
       "name": "Publish Poisoned Models",
@@ -1602,7 +1580,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0059",
       "name": "Erode Dataset Integrity",
@@ -1621,7 +1599,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0011.001",
       "name": "Malicious Package",
@@ -1640,7 +1618,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0060",
       "name": "Publish Hallucinated Entities",
@@ -1659,7 +1637,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0061",
       "name": "LLM Prompt Self-Replication",
@@ -1678,7 +1656,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0062",
       "name": "Discover LLM Hallucinations",
@@ -1697,7 +1675,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0008.002",
       "name": "Domains",
@@ -1716,7 +1694,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0008.003",
       "name": "Physical Countermeasures",
@@ -1735,7 +1713,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0063",
       "name": "Discover AI Model Outputs",
@@ -1754,7 +1732,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0016.002",
       "name": "Generative AI",
@@ -1773,7 +1751,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0064",
       "name": "Gather RAG-Indexed Targets",
@@ -1792,7 +1770,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0065",
       "name": "LLM Prompt Crafting",
@@ -1811,7 +1789,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0066",
       "name": "Retrieval Content Crafting",
@@ -1830,7 +1808,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0067",
       "name": "LLM Trusted Output Components Manipulation",
@@ -1849,7 +1827,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0068",
       "name": "LLM Prompt Obfuscation",
@@ -1868,7 +1846,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0069",
       "name": "Discover LLM System Information",
@@ -1887,7 +1865,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0069.000",
       "name": "Special Character Sets",
@@ -1906,7 +1884,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0069.001",
       "name": "System Instruction Keywords",
@@ -1925,7 +1903,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0069.002",
       "name": "System Prompt",
@@ -1944,7 +1922,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0070",
       "name": "RAG Poisoning",
@@ -1963,7 +1941,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0071",
       "name": "False RAG Entry Injection",
@@ -1982,7 +1960,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0067.000",
       "name": "Citations",
@@ -2001,7 +1979,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0018.002",
       "name": "Embed Malware",
@@ -2020,7 +1998,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0010.004",
       "name": "Container Registry",
@@ -2039,7 +2017,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0072",
       "name": "Reverse Shell",
@@ -2058,7 +2036,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0073",
       "name": "Impersonation",
@@ -2077,7 +2055,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0074",
       "name": "Masquerading",
@@ -2096,7 +2074,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0075",
       "name": "Cloud Service Discovery",
@@ -2115,7 +2093,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0076",
       "name": "Corrupt AI Model",
@@ -2134,7 +2112,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0077",
       "name": "LLM Response Rendering",
@@ -2153,7 +2131,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0008.004",
       "name": "Serverless",
@@ -2172,7 +2150,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0078",
       "name": "Drive-by Compromise",
@@ -2191,7 +2169,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0079",
       "name": "Stage Capabilities",
@@ -2210,7 +2188,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0080",
       "name": "AI Agent Context Poisoning",
@@ -2229,7 +2207,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0080.000",
       "name": "Memory",
@@ -2248,7 +2226,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0080.001",
       "name": "Thread",
@@ -2267,7 +2245,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0081",
       "name": "Modify AI Agent Configuration",
@@ -2286,7 +2264,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0082",
       "name": "RAG Credential Harvesting",
@@ -2305,7 +2283,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0083",
       "name": "Credentials from AI Agent Configuration",
@@ -2324,7 +2302,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0084",
       "name": "Discover AI Agent Configuration",
@@ -2343,7 +2321,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0084.000",
       "name": "Embedded Knowledge",
@@ -2362,7 +2340,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0084.001",
       "name": "Tool Definitions",
@@ -2381,7 +2359,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0084.002",
       "name": "Activation Triggers",
@@ -2400,7 +2378,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0085",
       "name": "Data from AI Services",
@@ -2419,7 +2397,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0085.000",
       "name": "RAG Databases",
@@ -2438,7 +2416,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0085.001",
       "name": "AI Agent Tools",
@@ -2457,7 +2435,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0086",
       "name": "Exfiltration via AI Agent Tool Invocation",
@@ -2476,7 +2454,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0087",
       "name": "Gather Victim Identity Information",
@@ -2495,7 +2473,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0088",
       "name": "Generate Deepfakes",
@@ -2514,7 +2492,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0089",
       "name": "Process Discovery",
@@ -2533,7 +2511,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0090",
       "name": "OS Credential Dumping",
@@ -2552,7 +2530,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0091",
       "name": "Use Alternate Authentication Material",
@@ -2571,7 +2549,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0092",
       "name": "Manipulate User LLM Chat History",
@@ -2590,7 +2568,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0091.000",
       "name": "Application Access Token",
@@ -2609,7 +2587,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0093",
       "name": "Prompt Infiltration via Public-Facing Application",
@@ -2628,7 +2606,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0094",
       "name": "Delay Execution of LLM Instructions",
@@ -2647,7 +2625,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0051.002",
       "name": "Triggered",
@@ -2666,7 +2644,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0095",
       "name": "Search Open Websites/Domains",
@@ -2685,7 +2663,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0096",
       "name": "AI Service API",
@@ -2704,7 +2682,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0097",
       "name": "Virtualization/Sandbox Evasion",
@@ -2723,7 +2701,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0098",
       "name": "AI Agent Tool Credential Harvesting",
@@ -2742,7 +2720,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0099",
       "name": "AI Agent Tool Data Poisoning",
@@ -2761,7 +2739,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0100",
       "name": "AI Agent Clickbait",
@@ -2780,7 +2758,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0101",
       "name": "Data Destruction via AI Agent Tool Invocation",
@@ -2799,7 +2777,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0102",
       "name": "Generate Malicious Commands",
@@ -2818,7 +2796,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0103",
       "name": "Deploy AI Agent",
@@ -2837,7 +2815,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0104",
       "name": "Publish Poisoned AI Agent Tool",
@@ -2856,7 +2834,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0011.002",
       "name": "Poisoned AI Agent Tool",
@@ -2875,7 +2853,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0011.003",
       "name": "Malicious Link",
@@ -2894,7 +2872,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0105",
       "name": "Escape to Host",
@@ -2913,7 +2891,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0106",
       "name": "Exploitation for Credential Access",
@@ -2932,7 +2910,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0107",
       "name": "Exploitation for Defense Evasion",
@@ -2951,7 +2929,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:56.567827+00:00",
+      "timestamp": "2026-03-15T19:43:14.426337+00:00",
       "source": "mitre_atlas",
       "atlas_id": "AML.T0108",
       "name": "AI Agent",
@@ -2970,7 +2948,7 @@
       "threat_score": 24.0
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM01",
       "name": "Prompt Injection",
@@ -2986,7 +2964,7 @@
       "threat_score": 45.4
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM02",
       "name": "Insecure Output Handling",
@@ -3002,7 +2980,7 @@
       "threat_score": 23.5
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM03",
       "name": "Training Data Poisoning",
@@ -3018,7 +2996,7 @@
       "threat_score": 41.2
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM04",
       "name": "Model Denial of Service",
@@ -3034,7 +3012,7 @@
       "threat_score": 39.3
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM05",
       "name": "Supply Chain Vulnerabilities",
@@ -3050,7 +3028,7 @@
       "threat_score": 26.9
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM06",
       "name": "Sensitive Information Disclosure",
@@ -3066,7 +3044,7 @@
       "threat_score": 31.7
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM07",
       "name": "Insecure Plugin Design",
@@ -3082,7 +3060,7 @@
       "threat_score": 23.5
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM08",
       "name": "Excessive Agency",
@@ -3098,7 +3076,7 @@
       "threat_score": 35.0
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM09",
       "name": "Overreliance",
@@ -3114,7 +3092,7 @@
       "threat_score": 28.0
     },
     {
-      "timestamp": "2026-03-15T17:59:58.051290+00:00",
+      "timestamp": "2026-03-15T19:43:15.476314+00:00",
       "source": "owasp_llm",
       "owasp_id": "LLM10",
       "name": "Model Theft",
