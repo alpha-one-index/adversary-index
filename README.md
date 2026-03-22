@@ -4,6 +4,8 @@
 
 [![Hourly Collection](https://github.com/alpha-one-index/adversary-index/actions/workflows/hourly_collect.yml/badge.svg)](https://github.com/alpha-one-index/adversary-index/actions/workflows/hourly_collect.yml)
 
+> **See also:** [![Awesome AI Index](https://img.shields.io/badge/Awesome_AI_Index-Browse_All-blue.svg)](https://github.com/alpha-one-index/awesome-ai-index) — The definitive index of AI tools, models, papers, and frameworks.
+
 ## What This Is
 
 AdversaryIndex is the first open, machine-readable index of AI/ML adversarial threats. Every hour, automated pipelines collect, classify, and enrich threat data from:
